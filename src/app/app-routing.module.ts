@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HbjComponent } from './hbj/hbj.component';
 
+import { LandingPageComponent} from './landing-page/landing-page.component';
 const routes: Routes = [
-  { path: "hbj", component: HbjComponent },
+ 
+  { path : "",component:LandingPageComponent}
 ];
 
 @NgModule({

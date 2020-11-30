@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HbjComponent } from './hbj/hbj.component';
+
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HbjComponent
+   
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
